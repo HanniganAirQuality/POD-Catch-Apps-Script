@@ -78,7 +78,7 @@ function sendSpreadsheetAsCSV() {
     var fileBlob = Utilities.newBlob(csvData, "text/csv", fileName);
     
     // Send the file via email
-    var email = "simivalleylpod@gmail.com"; // Replace with your email
+    var email = "YOUR-EMAIL@gmail.com"; // Replace with your email
     var subject = "LPODD0 Spreadsheet Capacity Alert - Data Exported";
     var message = "Your spreadsheet has reached its capacity, and the data has been exported to a CSV file.";
     
